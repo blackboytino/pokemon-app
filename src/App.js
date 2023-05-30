@@ -9,7 +9,8 @@ import Mainscreen from "./components/mainscreen";
 export default function App(){
 
 return(
-  // the routing structure
+  <>
+ 
  <BrowserRouter>
     <Routes>
       <Route path= "/" element={<Applayout/>} >
@@ -22,6 +23,7 @@ return(
 
     </Routes>
   </BrowserRouter>
+  </>
 )
 
 }
